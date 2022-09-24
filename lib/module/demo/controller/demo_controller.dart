@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:snippet_project/state_util.dart';
-
 import '../view/demo_view.dart';
 
 class DemoController extends State<DemoView> {
