@@ -12,7 +12,7 @@ DemoController.instance.updateCounter();
 - Accessing the view constructor from the controller
 
 Example:
-
+```
 DemoController.view.id
 DemoController.view.item
 DemoController.view.product
