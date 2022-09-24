@@ -27,7 +27,3 @@ controller.update();
 ### Inspiration:
 - Simple controller @ getx
 - ConsumerWidget @ riverpod
-
-
-<img src="https://github.com/denyocrworld/mvc-concept-using-setstate/blob/master/screenshot.jpg?raw=true"/>
-

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:snippet_project/module/view/demo_view.dart';
+import 'package:snippet_project/state_util.dart';
+
+import '../view/demo_view.dart';
 
 class DemoController extends State<DemoView> {
   static late DemoController instance;
@@ -22,9 +24,4 @@ class DemoController extends State<DemoView> {
     counter++;
     update();
   }
-}
-
-extension DemoControllerExtension on State {
-  // ignore: unnecessary_this, invalid_use_of_protected_member
-  update() => this.setState(() {});
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:snippet_project/module/controller/demo_controller.dart';
+
+import '../controller/demo_controller.dart';
 
 class DemoView extends StatefulWidget {
   const DemoView({Key? key}) : super(key: key);

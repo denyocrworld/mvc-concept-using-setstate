@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:snippet_project/module/view/demo_view.dart';
+
+import 'module/demo/view/demo_view.dart';
 
 void main() {
   runApp(const MyApp());
