@@ -1,16 +1,31 @@
-# _snippet_project
+##  setState View-Controller Concept by DenyOcr
 
-A new Flutter project.
+## Features:
+- Singleton support
+  So, you can access the controller anywhere
 
-## Getting Started
+Example:
+```
+DemoController.instance.updateCounter();
+```
 
-This project is a starting point for a Flutter application.
+- Accessing the view constructor from the controller
 
-A few resources to get you started if this is your first Flutter project:
+Example:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+DemoController.view.id
+DemoController.view.item
+DemoController.view.product
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Calling setState with update() (simpler, right?)
+```
+Example:
+controller.update();
+```
+
+### Inspiration:
+- Simple controller @ getx
+- ConsumerWidget @ riverpod
+
+
